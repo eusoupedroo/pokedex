@@ -69,4 +69,4 @@ buttonNext.addEventListener('click', () => {
 });
 
 // chamando a função de renderizar o pokémon
-renderPokemon(procuraPokemon);
+renderPokemon(procuraPokemon); 
