@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Favicon -->
+    <link rel="icon" href="favicon/favicon-16x16.png">
+    <!-- Link Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Titulo Página -->
+    <title>PokeDéx Website</title>
+</head>
+
+<body>
+    <!-- Conteúdo da página -->
+    <main>
+        <!-- Imagem Pokémon -->
+        <img src="#" alt="pokemon" class="pokemon__imagem">
+        
+        <!-- Dados Pokémon -->
+        <h1 class="dados_pokemon">
+            <span class="pokemon_codigo"></span> -
+            <span class="pokemon__nome"></span>
+        </h1>
+
+        <!-- Pesquisando pokemon -->
+        <form class="form">
+            <input type="search" class="campo_pesquisa" placeholder="Número ou Nome" required />
+        </form>
+
+        <!-- Botões -->
+        <div class="buttons">
+            <button class="button btn-anterior">Anterior &lt;</button>
+            <button class="button btn-proximo">Próximo  &gt;</button>
+        </div>
+        <!-- Pokedex -->
+        <img src="images/pokedex.png" alt="pokedex" class="pokedex">
+    </main>
+
+    <!-- Arquivo JS -->
+    <script defer src="js/script.js"></script>
+</body>
+</html>
